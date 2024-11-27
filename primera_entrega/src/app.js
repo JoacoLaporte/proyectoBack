@@ -1,4 +1,4 @@
-import express  from "express";
+import express from "express";
 
 import routerProducts from "./routes/products.router.js";
 import routerCarts from "./routes/carts.router.js";
@@ -18,6 +18,3 @@ app.use('/api/carts', routerCarts);
 app.listen(PORT, () => {
     console.log(`Ejecutándose en http://localhost:${PORT}`);
 });
-
-
-

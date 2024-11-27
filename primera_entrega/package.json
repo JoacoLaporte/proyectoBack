@@ -6,16 +6,18 @@
   "scripts": {
     "start": "node ./src/app.js",
     "dev": "nodemon ./src/app.js",
-    "stop":  "killall -9 node"
+    "stop": "killall -9 node"
   },
   "keywords": [],
   "author": "Joaquin Laporte",
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
+    "eslint": "^8.57.0",
     "nodemon": "^3.1.7"
   }
 }
